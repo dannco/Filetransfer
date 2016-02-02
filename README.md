@@ -5,4 +5,8 @@ The client is started with an address and port. If successfully connected to the
 Additional commands allows the client to view all the files in the current directory, and to reset to another server.
 
 ####TODO
-Basically no security measures are in place, which means the server has no control over what files a client is sending or retrieving from it.
+- Basically no security measures are in place, which means the server has no control over who connects to the server, or what they are sending and retrieving from it.
+  - [ ] Password protection of server
+  - [ ] Restrict server to handle certain file extensions
+  - [ ] Encryption
+- [ ] Graphical user interface
